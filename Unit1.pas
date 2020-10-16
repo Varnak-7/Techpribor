@@ -69,7 +69,7 @@ begin
        Label4.Text:=FloatToStr(trackbar4.Value)+'mhz';
        TrackBar5.Value:=(TrackBar1.Value/((TrackBar1.Value + TrackBar2.Value)/100))*0.45;
 end;
-
+///////////////////////////////kkjljoljoj////////////////////////////
 
 procedure TForm1.Memo1DblClick(Sender: TObject);
 begin
@@ -115,7 +115,7 @@ end;
 
 procedure TForm1.TrackBar5Change(Sender: TObject);
 begin
-      Label5.Text:=FloatToStr((trackbar5.Value))+'°' ;
+      Label5.Text:=FloatToStr((trackbar5.Value))+'Â°' ;
 end;
 
 end.
