@@ -75,7 +75,7 @@ procedure TForm1.Memo1DblClick(Sender: TObject);
 begin
      Memo1.Lines.Clear;
 end;
-
+/////////////////////////////////khjklklkhkl///////////////////////
 procedure TForm1.Timer1Timer(Sender: TObject);
 begin
         Memo1.Lines.Add('#,'+IntToStr(Trunc(TrackBar1.Value))+
@@ -115,7 +115,7 @@ end;
 
 procedure TForm1.TrackBar5Change(Sender: TObject);
 begin
-      Label5.Text:=FloatToStr((trackbar5.Value))+'°' ;
+      Label5.Text:=FloatToStr((trackbar5.Value))+'Â°' ;
 end;
 
 end.
