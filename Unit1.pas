@@ -108,6 +108,15 @@ begin
        Label3.Text:=IntToStr(Trunc(trackbar3.Value))+'ms';
 end;
 
+procedure TForm1.TrackBar3Change(Sender: TObject);
+begin
+       Timer1.Interval:=Trunc(trackbar3.Value);
+       Label3.Text:=IntToStr(Trunc(trackbar3.Value))+'ms';
+end;
+
+
+
+
 procedure TForm1.TrackBar4Change(Sender: TObject);
 begin
        Label4.Text:=FloatToStr(trackbar4.Value)+'mhz';
@@ -115,7 +124,7 @@ end;
 
 procedure TForm1.TrackBar5Change(Sender: TObject);
 begin
-      Label5.Text:=FloatToStr((trackbar5.Value))+'°' ;
+      Label5.Text:=FloatToStr((trackbar5.Value))+'Â°' ;
 end;
 
 end.
